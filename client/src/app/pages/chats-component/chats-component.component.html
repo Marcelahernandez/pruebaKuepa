@@ -1,0 +1,23 @@
+<div class="container-chat" >
+    <div class="header">
+        Chat
+    </div>
+    <div class="content-chat"  >
+        <div  class="messages" #scrollMe style="overflow: scroll; height: xyz;">
+            <div *ngFor="let message of myMessages">
+                <div class="message" >   
+                    <div class="sender" >
+                        {{message.user}} <label class="rol" *ngIf="message.rol_user == 1"> Moderador </label> <label class="rol" *ngIf="message.rol_user == 2">Estudiante</label>
+                    </div>
+                    <div class="message-text">
+                        {{message.message}}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <input class="form-control" (change)="myMessage()" [(ngModel)]="userChat.message">
+    </div>
+    
+</div>

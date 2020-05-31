@@ -1,0 +1,183 @@
+
+.nb-theme-dark nb-layout-header nav a {
+    color: #F86433!important;
+}
+
+.nb-theme-dark nb-card-header{
+    color: #F86433!important;  
+}
+
+.nb-theme-dark nb-layout-header{
+    background:#1e2229!important;
+}
+.nb-theme-dark nb-sidebar{
+    background:#1e2229!important;
+}
+.nb-theme-dark nb-menu .menu-item .menu-icon{
+    color: #F86433!important;
+}
+.nb-theme-dark nb-menu .menu-item a.active, .nb-theme-dark nb-menu .menu-item a:hover{
+    color: #F86433!important;  
+}
+.nb-theme-dark nb-sidebar.compacted nb-menu .menu-item a.active::before {
+    background: #F86433!important;
+}
+.nb-theme-dark nb-card{
+    background:#1e2229!important;
+}
+
+.nb-theme-dark nb-layout.window-mode .layout nb-layout-header nav {
+    max-width: 1920px;
+    margin: 0 auto;
+}
+
+.nb-theme-dark nb-layout-header nav {
+    color: #ffffff;
+    box-shadow: 0 0.5rem 1rem 0 #1e2229!important;
+    border-bottom: 1px solid #F86433;
+}
+
+.nb-theme-dark ng2-smart-table th.ng2-smart-actions-title-add a{
+    border-color: #F86433!important;
+    background-color: #F86433!important;
+}
+
+.nb-theme-dark .menu-sidebar .scrollable{
+    padding-top: 0px!important;
+}
+
+.nb-theme-dark .header-container .logo {
+    border-left: 1px solid #fff!important;
+}
+
+.nb-theme-dark input, .nb-theme-dark textarea, .nb-theme-dark select{
+    background: none!important;
+    border: 1px solid #F86433;
+}
+.nb-theme-dark nb-action nb-icon {
+    color: #F86433!important;
+}
+
+.nb-theme-dark ng2-smart-table nav.ng2-smart-pagination-nav .pagination li a, 
+.nb-theme-dark ng2-smart-table nav.ng2-smart-pagination-nav .pagination li > span {
+    color: #F86433!important;
+
+}
+
+.nb-theme-dark ng2-smart-table nav.ng2-smart-pagination-nav .pagination li.active a, 
+.nb-theme-dark ng2-smart-table nav.ng2-smart-pagination-nav .pagination li.active a:hover, 
+.nb-theme-dark ng2-smart-table nav.ng2-smart-pagination-nav .pagination li.active a:focus, 
+.nb-theme-dark ng2-smart-table nav.ng2-smart-pagination-nav .pagination li.active > span, 
+.nb-theme-dark ng2-smart-table nav.ng2-smart-pagination-nav .pagination li.active > span:hover, 
+.nb-theme-dark ng2-smart-table nav.ng2-smart-pagination-nav .pagination li.active > span:focus {
+    color: #ffffff!important;
+    background-color: #000!important;
+}
+
+.nb-theme-dark  .buttons-row button{
+    margin-left: 10px;
+}
+.nb-theme-dark nb-menu .menu-item{
+    border-bottom: 0px !important;
+}
+.nb-theme-dark nb-card-header{
+    border-bottom: 1px solid #F86433!important;
+}
+.nb-theme-dark .label{
+    color:#fff!important;
+}
+.nb-theme-dark nb-layout .layout .layout-container .content nb-layout-footer nav {
+    background-color: #1e2229!important;
+}
+.nb-theme-dark ng2-smart-table table tr th, .nb-theme-dark ng2-smart-table table tr td{
+    border: 0px!important;
+}
+.nb-theme-dark ng2-smart-table table tr.ng2-smart-titles th{
+    background: #1e2229!important;
+}
+.nb-theme-dark ng2-smart-table thead tr{
+    background: #1e2229!important;
+}
+.nb-theme-dark ng2-smart-table .ng2-smart-actions {
+     padding: 0; 
+     height: auto!important;
+}
+
+.nb-theme-dark nb-alert.outline-success {
+    border: 1px solid #F86433!important;
+}
+.nb-theme-dark nb-alert.status-basic {
+    color: #ffffff;
+    background-color: #1e2229!important;
+}
+
+.form-control{
+    color:#ffffff!important;
+}
+
+.nb-theme-dark input, .nb-theme-dark textarea, .nb-theme-dark select{
+    background-color: #1e2229!important;
+}
+.logo .separator{
+    padding: 0px 10px;
+}
+.point-right, .point-left, .pull-left, .pull-right{
+    background: transparent!important;
+    border: 1px solid #F86433!important;
+    color: #FFFFFF !important;
+}
+
+.pull-left, .pull-right{
+    display: none!important;
+}
+
+.selected{
+    background-color: #4c5458!important;
+}
+
+.record-picker li:hover{
+    background-color: #4c5458!important;
+}
+
+.nb-theme-dark [nbInput].status-basic{
+    border:1px solid #F86433!important;
+}
+
+.nb-theme-dark [nbButton].appearance-filled.status-primary {
+    background-color: #F86433!important;
+    border-color: #F86433!important;
+    color: #ffffff!important;
+}
+.nb-theme-dark [nbInput].status-success {
+    border-color: #F86433!important;
+    color: #ffffff;
+}
+
+.navigations .arrow-back{
+    display: none!important;
+}
+.nb-theme-dark h1, .nb-theme-dark .h1{
+    color: #F86433!important;
+}
+.nb-theme-dark p, .nb-theme-dark .paragraph{
+    color: #F86433!important;
+}
+.login-logo{
+    width: 200px;
+    padding-bottom: 20px;
+}
+.imgRef{
+    width:100px;
+    margin-bottom:10px;
+}
+.imgRef img{
+    max-width:100%;
+}
+@media (max-width: 400px){
+    .samsung-logo{
+        display: none;
+    }
+    .logo .separator{
+        display: none;
+    }
+}
