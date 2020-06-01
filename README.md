@@ -5,6 +5,7 @@ Este proyecto es una prueba técnica
 Backend: NodeJS
 Frontend: Angular 9 Plantilla Nebular
 Base de datos:kuepa_bd.sql
+Puerto de la base de datos lo tengo como el 3307 pero si desea cambiar el puerto ingresar al siguiente archivo database/db.js y en la linea 6 de ese archivo, cambiarlo por el predeterminado de su equipo
 
 ## INSTALACION
 
